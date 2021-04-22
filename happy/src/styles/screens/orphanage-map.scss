@@ -1,0 +1,70 @@
+.page-map{
+  width: 100vw;
+  height: 100vh;
+
+  display: flex;
+  position: relative;
+
+  aside{
+    width: 27.5rem;
+    padding: 5rem;
+    background: var(--blue-50);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    header{
+      font-weight: 800;
+      
+      h2{
+        margin-top: 3rem;
+        font-size: 3rem;
+        line-height: 3.25rem;
+      }
+
+      p{
+        margin-top: 1.75rem;
+        font-size: 1.5rem;
+      }
+    }
+
+    .location{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-direction: column;
+
+      strong{
+        font-size: 1.5rem;
+        font-weight: 800;
+      }
+
+      span{
+        font-size: 1.125rem;
+        font-weight: 800;
+      }
+    }
+
+    .back-home{
+      position: absolute;
+      left: 90%;
+      top: 85%;
+
+      width: 5rem;
+      height: 5rem;
+      border-radius: 2rem;
+
+      background: var(--blue-50);
+      transition: 0.3s;
+
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      &:hover{
+        background: var(--blue-100);
+      }
+    }
+  }
+}

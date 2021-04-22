@@ -1,0 +1,45 @@
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+
+  font-family: Nunito;
+}
+
+:root{
+  --white: #FFF;
+  --blue-50: #00C7C7;
+  --blue-100: #29B6D1;
+  --yellow-50: #ffd666;
+}
+
+@media (max-width: 1080px){
+  html{
+    font-size: 93.75%;
+  }
+}
+
+@media (max-width:720px){
+  html{
+    font-size: 87.5%;
+  }
+}
+
+body{
+  color: var(--white);
+}
+
+body, input, textarea, button{
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+h1,h2,h3,h4,h5,h6{
+  font-weight: 800;
+  color: var(--white);
+}
+
+button{
+  cursor: pointer;
+}
+
